@@ -1,0 +1,23 @@
+{
+    "name": "IOTIFTTTTS_1",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "KSRobot_IOT": "github:kaise-ksrobot/pxt-ksrobot-iot#63098789fe732830ffef4f3a442f139c099b1011",
+        "pxt-DHT11_DHT22": "github:alankrantas/pxt-dht11_dht22#v0.0.2",
+        "i2cLCD1602": "github:makecode-extensions/i2clcd1602#v1.5.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
